@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Choose Country View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ChooseCountryViewController" customModule="Republic_News" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackGroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="7Uu-Rz-Vsk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIj-qB-Dym">
+                                <rect key="frame" x="239" y="143" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.81176470588235294" green="0.29411764705882354" blue="0.37254901960784315" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="Xug-Hj-kqe"/>
+                                    <constraint firstAttribute="height" constant="125" id="wJF-c4-lZj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="United States">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="countryBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CqS-tJ-oec"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a21-Rt-eqU">
+                                <rect key="frame" x="239" y="308" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.81176470588235294" green="0.29411764705882354" blue="0.37254901960784315" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="PDP-bL-HvQ"/>
+                                    <constraint firstAttribute="height" constant="125" id="vob-SH-EMx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="Brazil">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="countryBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ehK-ug-5GY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLh-t9-ZUu">
+                                <rect key="frame" x="50" y="473" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.81176470588235294" green="0.29411764705882354" blue="0.37254901960784315" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="wYV-Hd-zd1"/>
+                                    <constraint firstAttribute="width" constant="125" id="whr-PH-APN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="Italy">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="countryBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3O1-Q1-wOw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z6J-pS-47Z">
+                                <rect key="frame" x="239" y="473" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.81176470588235294" green="0.29411764705882354" blue="0.37254901960784315" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="dSf-4P-22m"/>
+                                    <constraint firstAttribute="height" constant="125" id="pLt-IQ-qhl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="New Zealand">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="countryBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JeY-wB-j2g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ck9-gt-tRk">
+                                <rect key="frame" x="50" y="143" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.81176470588235294" green="0.29411764705882354" blue="0.37254901960784315" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="guR-tf-PYI"/>
+                                    <constraint firstAttribute="height" constant="125" id="vCm-6c-PeA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="India">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="countryBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KCw-y2-tju"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ev2-87-p9I">
+                                <rect key="frame" x="50" y="308" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.81176470588235294" green="0.29411764705882354" blue="0.37254901960784315" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="9kI-jz-P2f"/>
+                                    <constraint firstAttribute="width" constant="125" id="nN3-fY-5TE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="Russia">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="countryBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PJp-BF-t0x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KE7-v5-bnS">
+                                <rect key="frame" x="144.5" y="638" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.81176470588235294" green="0.29411764705882354" blue="0.37254901960784315" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="AQm-PW-CyT"/>
+                                    <constraint firstAttribute="width" constant="125" id="skk-cs-CZs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="Mexico">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="countryBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gpP-v3-4pj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVE-Zq-LwM">
+                                <rect key="frame" x="67" y="64" width="280" height="35"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7Uu-Rz-Vsk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0QV-e0-zed"/>
+                            <constraint firstItem="a21-Rt-eqU" firstAttribute="top" secondItem="MIj-qB-Dym" secondAttribute="bottom" constant="40" id="3sp-3Y-RIw"/>
+                            <constraint firstAttribute="bottom" secondItem="7Uu-Rz-Vsk" secondAttribute="bottom" id="5T7-Ua-MfE"/>
+                            <constraint firstItem="QLh-t9-ZUu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="6Pc-yz-Q17"/>
+                            <constraint firstItem="Ev2-87-p9I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="9e9-Xy-tjP"/>
+                            <constraint firstItem="uVE-Zq-LwM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BUc-JR-x4H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a21-Rt-eqU" secondAttribute="trailing" constant="50" id="FNh-3O-Bxs"/>
+                            <constraint firstItem="ck9-gt-tRk" firstAttribute="top" secondItem="uVE-Zq-LwM" secondAttribute="bottom" constant="44" id="GRv-YR-YvV"/>
+                            <constraint firstItem="ck9-gt-tRk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="GlV-mw-M3l"/>
+                            <constraint firstItem="KE7-v5-bnS" firstAttribute="top" secondItem="QLh-t9-ZUu" secondAttribute="bottom" constant="40" id="JTg-1V-2wR"/>
+                            <constraint firstItem="7Uu-Rz-Vsk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="O6W-7D-Zg0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MIj-qB-Dym" secondAttribute="trailing" constant="50" id="bZ5-Sd-7mc"/>
+                            <constraint firstItem="uVE-Zq-LwM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="cFA-Tm-Ig5"/>
+                            <constraint firstItem="KE7-v5-bnS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hA9-Yd-3AL"/>
+                            <constraint firstItem="Ev2-87-p9I" firstAttribute="top" secondItem="ck9-gt-tRk" secondAttribute="bottom" constant="40" id="hxl-rQ-6uf"/>
+                            <constraint firstItem="z6J-pS-47Z" firstAttribute="top" secondItem="a21-Rt-eqU" secondAttribute="bottom" constant="40" id="jak-jK-Gjc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z6J-pS-47Z" secondAttribute="trailing" constant="50" id="lMl-hu-zgu"/>
+                            <constraint firstItem="MIj-qB-Dym" firstAttribute="top" secondItem="uVE-Zq-LwM" secondAttribute="bottom" constant="44" id="nSv-0K-KpZ"/>
+                            <constraint firstItem="7Uu-Rz-Vsk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vg5-eV-956"/>
+                            <constraint firstItem="QLh-t9-ZUu" firstAttribute="top" secondItem="Ev2-87-p9I" secondAttribute="bottom" constant="40" id="zfC-Ny-Eb7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="117.85714285714285"/>
+        </scene>
+        <!--News Home View Controller-->
+        <scene sceneID="8CL-hh-5kO">
+            <objects>
+                <viewController storyboardIdentifier="NewsHomeViewController" id="GWm-nw-AUV" customClass="NewsHomeViewController" customModule="Republic_News" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1LK-dO-wZu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6NP-Fz-SJ0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewLayout key="collectionViewLayout" id="0dS-EU-I20" customClass="ScrollingLayout" customModule="Republic_News" customModuleProvider="target"/>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NVu-DU-3C4" firstAttribute="trailing" secondItem="6NP-Fz-SJ0" secondAttribute="trailing" id="B8r-ME-c4Z"/>
+                            <constraint firstItem="6NP-Fz-SJ0" firstAttribute="top" secondItem="1LK-dO-wZu" secondAttribute="top" id="ZTk-Uv-3xa"/>
+                            <constraint firstItem="6NP-Fz-SJ0" firstAttribute="leading" secondItem="NVu-DU-3C4" secondAttribute="leading" id="gOQ-wJ-yGX"/>
+                            <constraint firstAttribute="bottom" secondItem="6NP-Fz-SJ0" secondAttribute="bottom" id="gXB-cZ-E07"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NVu-DU-3C4"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="6NP-Fz-SJ0" id="mPw-wA-jjz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EMA-e6-F02" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1838" y="118"/>
+        </scene>
+        <!--News Detail View Controller-->
+        <scene sceneID="3DF-zC-sU5">
+            <objects>
+                <viewController storyboardIdentifier="NewsDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xmv-J3-Il0" customClass="NewsDetailViewController" customModule="Republic_News" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dpn-Nn-3AW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ax8-b0-ZaD">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2cz-wO-FJC">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <navigationItem id="NM5-ba-eOI">
+                                        <barButtonItem key="rightBarButtonItem" title="Close" style="done" id="qtV-Bz-o5y">
+                                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <connections>
+                                                <action selector="closeBtnClicked:" destination="xmv-J3-Il0" id="dJW-b5-mdM"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ax8-b0-ZaD" firstAttribute="top" secondItem="2cz-wO-FJC" secondAttribute="bottom" id="1Ma-NI-fql"/>
+                            <constraint firstItem="2cz-wO-FJC" firstAttribute="leading" secondItem="Dpn-Nn-3AW" secondAttribute="leading" id="BFr-89-f5H"/>
+                            <constraint firstItem="ax8-b0-ZaD" firstAttribute="leading" secondItem="bdc-Hk-wNA" secondAttribute="leading" id="Dck-fF-tNU"/>
+                            <constraint firstItem="2cz-wO-FJC" firstAttribute="top" secondItem="bdc-Hk-wNA" secondAttribute="top" id="L8f-DP-b3E"/>
+                            <constraint firstItem="bdc-Hk-wNA" firstAttribute="trailing" secondItem="ax8-b0-ZaD" secondAttribute="trailing" id="T5S-5s-J9O"/>
+                            <constraint firstItem="bdc-Hk-wNA" firstAttribute="trailing" secondItem="2cz-wO-FJC" secondAttribute="trailing" id="fjg-or-8j0"/>
+                            <constraint firstAttribute="bottom" secondItem="ax8-b0-ZaD" secondAttribute="bottom" id="lss-cF-Qf2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bdc-Hk-wNA"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="ax8-b0-ZaD" id="Q1D-zq-5yG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zsn-06-KHy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2700" y="118"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackGroundImage" width="340" height="588"/>
+    </resources>
+</document>
